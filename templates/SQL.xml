@@ -1,5 +1,5 @@
 <templateSet group="SQL">
-  <template name="scfor" value="$table-&gt;foreign('$NAME$')&#10;      -&gt;references('id')&#10;      -&gt;on('$VALUE$')&#10;      -&gt;onDelete('cascade');" toReformat="false" toShortenFQNames="true">
+  <template name="scfor" value="$table-&gt;foreign('$NAME$')&#10;      -&gt;references('id')&#10;      -&gt;on('$VALUE$')&#10;      -&gt;onDelete('cascade');" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
